@@ -26,7 +26,14 @@ namespace OOP1
             productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 
+            productManager.Topla2(3, 6);
 
+            int toplamaSonucu = productManager.Topla(3, 6);
+            Console.WriteLine(toplamaSonucu * 2);
+
+            //int, double, bool... değer tip
+            //array, class, abstract class, interface... referans tip
+            //ref out
         }
     }
 }
